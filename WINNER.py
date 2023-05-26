@@ -12,7 +12,7 @@ with open(file_path, "r") as f:
     video_urls = f.readlines()
 
 # Create the directory for the downloaded MP3 files
-mp3s_dir = os.path.join("D:\\wrk\\PROJEKTI", "mp3s")
+mp3s_dir = os.path.join("D:\\", "mp3s")
 
 # Check if the directory exists
 if not os.path.exists(mp3s_dir):
